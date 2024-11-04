@@ -1,0 +1,116 @@
+/* HomePage.css */
+@media (max-width: 768px) {
+    .ant-layout-sider {
+        position: relative;
+        height: auto;
+        width: 150px;
+        /* Reduced sidebar width for mobile */
+    }
+
+    .ant-layout {
+        margin-left: 150px;
+        /* Adjusted content margin for mobile */
+        width: 740px;
+        background-color: white;
+
+    }
+
+    .ant-table-content {
+        height: 1000px;
+
+        background-color: white;
+
+
+    }
+
+    .ant-select {
+        margin-right: -4px;
+
+    }
+
+    .content {
+        padding: 10px;
+        /* Keep content padding for better spacing */
+        width: 500px;
+        height: 700px;
+        background-color: transparent;
+        /* Remove background color */
+    }
+
+    .ant-modal-content {
+        height: 700px;
+        width: 500px;
+
+
+    }
+
+    .divider {
+        margin-top: 10px;
+    }
+
+    .ant-table {
+        width: 100%;
+        /* Full width of the content area */
+        background-color: transparent;
+        /* Remove table background color */
+        overflow: auto;
+        /* Enable overflow for the table */
+        border-collapse: collapse;
+        /* Improve table display */
+    }
+
+    .ant-table th,
+    .ant-table td {
+        white-space: nowrap;
+        /* Prevent text from wrapping */
+    }
+
+    .ant-btn {
+        width: 100%;
+        /* Full-width buttons */
+    }
+
+    /* Set layout background color to transparent */
+    .ant-layout {
+        background-color: transparent;
+        /* Remove layout background color */
+    }
+}
+
+@media (max-width: 576px) {
+    .ant-layout-sider {
+        width: 100%;
+        /* Sidebar full width on very small screens */
+    }
+
+    .ant-modal-content {
+        height: 700px;
+        width: 500px;
+
+
+    }
+
+    .ant-layout {
+        margin-left: 0;
+        /* Reset margin for full-width layout */
+    }
+
+    .content {
+        padding: 10px;
+        /* Ensure padding remains for mobile */
+    }
+}
+
+/* Ensure the table is responsive */
+.ant-table {
+    overflow: auto;
+    /* Enable overflow for the table */
+    border-collapse: collapse;
+    /* Improve table display */
+}
+
+.ant-table th,
+.ant-table td {
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+}
