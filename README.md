@@ -1,3 +1,3 @@
 # SpendWise
 
- ![Image Alt](image_url)
+ ![Image Alt](https://github.com/anshita005/SpendWise/blob/main/spendWise1.png)
